@@ -17,4 +17,5 @@ setuptools.setup(
     license=license,
     install_requires=["pandas"],
     packages=setuptools.find_packages(),
+    include_package_data=True
 )
