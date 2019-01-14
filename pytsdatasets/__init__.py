@@ -1,1 +1,1 @@
-from pytsdatasets import *
+import pytsdatasets
