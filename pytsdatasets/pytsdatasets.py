@@ -18,3 +18,8 @@ co2.index = co2.index.to_period("M")
 airpassengers = pd.read_csv(f'{pkgdir}/data/airpassengers.csv', index_col=0, 
                     parse_dates=True)
 airpassengers.index = airpassengers.index.to_period("M")
+
+# US Change
+uschange = pd.read_csv(f'{pkgdir}/data/uschange.csv', index_col=0, 
+                    parse_dates=True)
+airpassengers.index = airpassengers.index.to_period("Q")
