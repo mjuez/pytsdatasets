@@ -22,4 +22,4 @@ airpassengers.index = airpassengers.index.to_period("M")
 # US Change
 uschange = pd.read_csv(f'{pkgdir}/data/uschange.csv', index_col=0, 
                     parse_dates=True)
-airpassengers.index = airpassengers.index.to_period("Q")
+uschange.index = uschange.index.to_period("Q")
