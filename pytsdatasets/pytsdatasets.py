@@ -25,6 +25,5 @@ uschange = pd.read_csv(f'{pkgdir}/data/uschange.csv', index_col=0,
 uschange.index = uschange.index.to_period("Q")
 
 # H02
-h02 = pd.read_csv(f'{pkgdir}/data/h02.csv', index_col=0, 
-                    parse_dates=True)
+h02 = pd.read_csv(f'{pkgdir}/data/h02.csv', index_col=0, parse_dates=True)
 h02.index = h02.index.to_period("M")
