@@ -10,7 +10,7 @@ jj.index = jj.index.to_period("Q")
 # Global temperatures
 globaltemp = pd.read_csv(f'{pkgdir}/data/globaltemp.csv', index_col=0,
                          parse_dates=True)
-globaltemp.index = globaltemp.index.to_period("M")
+globaltemp.index = globaltemp.index.to_period("Y")
 
 # CO2
 co2 = pd.read_csv(f'{pkgdir}/data/co2.csv', index_col=0, parse_dates=True)
