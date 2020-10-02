@@ -9,8 +9,7 @@ with open('LICENSE') as f:
 setuptools.setup(
     name='pytsdatasets',
     version='1.0',
-    description='A python package that contains time series toy datasets',
-    long_description=readme,
+    description='A python package that provides some time series datasets available R distribution and in astsa R package.',
     author='Mario Juez-Gil',
     author_email='mariojg@ubu.es',
     url='https://github.com/mjuez/pytsdatasets',
