@@ -10,6 +10,8 @@ setuptools.setup(
     name='pytsdatasets',
     version='1.0',
     description='A python package that provides some time series datasets available R distribution and in astsa R package.',
+    long_description=readme,
+    long_description_content_type='text/markdown',
     author='Mario Juez-Gil',
     author_email='mariojg@ubu.es',
     url='https://github.com/mjuez/pytsdatasets',
