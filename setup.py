@@ -1,6 +1,6 @@
 import setuptools
 
-with open('README.rst') as f:
+with open('README.md') as f:
     readme = f.read()
 
 with open('LICENSE') as f:
@@ -14,7 +14,7 @@ setuptools.setup(
     author='Mario Juez-Gil',
     author_email='mariojg@ubu.es',
     url='https://github.com/mjuez/pytsdatasets',
-    download_url='https://github.com/mjuez/pytsdatasets/archive/v1_0.tar.gz'
+    download_url='https://github.com/mjuez/pytsdatasets/archive/v1_0.tar.gz',
     license=license,
     install_requires=["pandas==1.1.2"],
     packages=setuptools.find_packages(),
